@@ -1,0 +1,198 @@
+* {
+  font-family: 'Bodoni Moda', serif;
+  margin: 0;
+  padding: 0;
+}
+  
+h1, h2, h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button.night-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #000;
+  padding: 0;
+  margin-right: 25px;
+}
+
+header {
+  background-color: #b6daeb;
+  padding: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.parallax {
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero {
+  background-image: url(Images&Videos/Parallax_WindTurbine.jpg);
+}
+
+#features {
+  background-image: url(Images&Videos/Parallax_SolarPanels.jpg);
+}
+
+#sustainability-info {
+  background-image: url(Images&Videos/Parallax_BicycleSharing.jpg);
+}
+
+#testimonial {
+  background-image: url(Images&Videos/Parallax_Testimonial.jpg)
+}
+
+.hero {
+  background-image: url("hero-background.jpg");
+  background-size: cover;
+  color: #000000;
+  text-align: center;
+  padding: 100px;
+  transition: background-color 0.5s ease;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #45aaf2;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #1c7fd6;
+}
+
+/* Features */
+.features {
+  background-color: #f2f9fa;
+  text-align: center;
+  padding: 80px 0;
+  transition: background-color 0.5s ease;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.features ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features li {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+/* Sustainability Info */
+.sustainability-info {
+  background-color: #f2f9fa;
+  text-align: center;
+  padding: 80px 0;
+  transition: background-color 0.5s ease;
+}
+
+.sustainability-info h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.sustainability-info p {
+  font-size: 20px;
+}
+
+/* Testimonial */
+.testimonial {
+  background-color: #f2f9fa;
+  text-align: center;
+  padding: 80px 0;
+  transition: background-color 0.5s ease;
+}
+
+.testimonial h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+cite {
+  font-size: 20px;
+  font-style: italic;
+}
+
+#renewable-energy {
+  background-color: #f2f9fa;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #b6daeb;
+  font-weight: bold;
+  transition: background-color 0.5s ease;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #b6daeb;
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.5s ease;
+}

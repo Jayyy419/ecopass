@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoPass Community Forum</title>
+    <link rel="stylesheet" type="text/css" href="5B_CommunityForum.css" id="theme-style" />
+    <link rel="stylesheet" type="text/css" href="../NavigationBar/Nav.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
+    
+    <script src="5C_CommunityForum.js" defer></script>
+    <script src="5C_CommunityForumNightMode.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../1_HomePage/1A_HomePage.html">Home</a></li>
+          <li><a href="../2_DestinationExplorer/2A_DestinationExplorer.html">Destination Explorer</a></li>
+          <li><a href="../3_TravelPlanner/3A_TravelPlanner.html">Travel Planner</a></li>
+          <li><a href="../4_CarbonFootprintCalculator/4A_CarbonFootprintCalculator.html">Carbon Footprint Calculator</a></li>
+          <li><a href="#">Community Forum</a></li>
+          <li><a href="../6_About/6A_About.html">About</a></li>
+        </ul>
+        <div class="night-button-container">
+          <button onclick="toggleNightMode()" class="night-button">🌙</button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="community-forum">
+      <h2>Community Forum</h2>
+      <form id="communityForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+        <br>
+        <label for="content">Your Story:</label>
+        <textarea id="content" rows="4" required></textarea>
+        <br>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    
+      <div id="communityPosts"></div>
+
+      <button id="clearDataBtn" class="btn">Clear Data</button>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 EcoPass. All rights reserved.</p>
+    </footer>
+
+
+  </body>
+</html>

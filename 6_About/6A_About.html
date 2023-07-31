@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About EcoPass</title>
+    <link rel="stylesheet" type="text/css" href="6B_About.css" id="theme-style" />
+    <link rel="stylesheet" type="text/css" href="../NavigationBar/Nav.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
+
+    <script src="6C_About.js" defer></script>
+    <script src="6C_AboutNightMode.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../1_HomePage/1A_HomePage.html">Home</a></li>
+          <li><a href="../2_DestinationExplorer/2A_DestinationExplorer.html">Destination Explorer</a></li>
+          <li><a href="../3_TravelPlanner/3A_TravelPlanner.html">Travel Planner</a></li>
+          <li><a href="../4_CarbonFootprintCalculator/4A_CarbonFootprintCalculator.html">Carbon Footprint Calculator</a></li>
+          <li><a href="../5_CommunityForum/5A_CommunityForum.html">Community Forum</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <div class="night-button-container">
+          <button onclick="toggleNightMode()" class="night-button">🌙</button>
+        </div>
+      </nav>
+    </header>
+
+    <div id="information">      
+      <h2>Getting to know more about us!</h2>
+    
+      <section id="about-us" class="info-boxes">
+        <h3>About Us</h3>
+        <p>
+          Welcome to EcoPass, your ultimate Sustainability Companion! At EcoPass, we are committed to making a positive impact on our planet and 
+          empowering individuals like you to embrace sustainable practices both at home and while traveling.
+          With our wide range of features, including the Destination Explorer, Travel Planner, Community Forum, and Carbon Footprint Calculator, 
+          we strive to raise awareness about sustainable living and inspire collective action for a greener future.
+        </p>
+        <p>
+          Our mission is simple yet powerful: to be a driving force in the global movement towards sustainability. 
+          We envision a world where every individual is conscious of their environmental impact and takes meaningful steps 
+          to preserve our planet's beauty and resources for generations to come. By providing innovative tools and resources, 
+          we aim to empower people from all walks of life to make eco-conscious choices and create a positive ripple effect on a global scale.
+        </p>
+        <p>
+          At EcoPass, our journey towards sustainability is boundless. Our future goals revolve around continually expanding and enhancing our offerings. 
+          We are dedicated to adding more exciting features and tools to our platform, enabling you to explore and embrace sustainable practices effortlessly. 
+          Whether it's by introducing new interactive learning modules, connecting with eco-conscious communities worldwide, or promoting responsible travel, 
+          we strive to remain at the forefront of sustainability innovation.
+        </p>
+      </section>
+
+      <section id="future-goals" class="info-boxes">
+        <h3>Future Goals</h3>
+        <p>
+          In the coming years, we envision EcoPass becoming the go-to hub for sustainability enthusiasts, green travelers, and eco-warriors alike. Our vision extends beyond individual actions, 
+          as we aim to foster partnerships with organizations, businesses, and governments to drive large-scale sustainable initiatives and collectively create a lasting impact on the environment.
+        </p>
+        <!-- Add additional future goals content here, if desired -->
+      </section>
+    
+      <section id="call-to-action" class="info-boxes">
+        <h3>Call to Action</h3>
+        <p>
+          Join us on this transformative journey towards a sustainable future! Take advantage of our powerful tools, such as the Carbon Footprint Calculator, 
+          to understand and reduce your personal impact on the planet. Engage with like-minded individuals in our vibrant Community Forum, where ideas are exchanged, 
+          and solutions are born. Utilize our Travel Planner to make eco-friendly travel choices and explore breathtaking destinations responsibly.
+        </p>
+        <p>
+          Together, let's be the change we wish to see in the world. Every small action matters, and with EcoPass, you have the support and resources you need to make a significant difference. 
+          Embrace sustainability today and be a part of the movement to create a greener, healthier, and more resilient planet for future generations.
+        </p>
+      </section>
+      
+      <section id="contact-us" class="info-boxes">
+        <h3>Contact Us</h3>
+        <p>
+          We are here to assist you with any questions or inquiries. Please feel free to reach out to us using the contact options below:
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon">&#x260E;</span> Phone: +65 8808 1760
+          </li>
+          <li>
+            <span class="contact-icon">&#x2709;</span> Email: 233748M@mymail.nyp.edu.sg
+          </li>
+          <li>
+            <span class="contact-icon">&#x1F3E0;</span> Address: Nanyang Polytechnic, 180 Ang Mo Kio Avenue 8, Singapore 569830
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="content-container">
+      <div class="carousel-container">  
+        <div class="carousel-slide">
+          <img src="Images&Videos/About_Carousel1.jpg" alt="Image 1">
+          <img src="Images&Videos/About_Carousel2.jpg" alt="Image 2">
+          <img src="Images&Videos/About_Carousel3.jpg" alt="Image 3">
+        </div>
+      </div>
+
+      <section id="inquiry-form">
+        <h3>Inquiry Form</h3>
+        <form action="https://formspree.io/f/xeqbonan" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 EcoPass. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
